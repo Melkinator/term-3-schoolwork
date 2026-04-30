@@ -6,6 +6,11 @@ class RaceResult {
     /** @type {Duration} */
     duration;
 
+    /**
+     * @param {string} participantId 
+     * @param {string} sport 
+     * @param {Duration} time 
+     */
     constructor(participantId, sport, duration) {
         this.participantId = participantId;
         this.sport = sport;
